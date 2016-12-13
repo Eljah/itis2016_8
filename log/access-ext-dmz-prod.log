@@ -1,0 +1,258 @@
+0      2016-12-13 23:05:55,147 DEBUG apache.jasper.compiler.JspRuntimeContext  - Parent class loader is: WebAppClassLoader=Students personnel@3fa76c61
+2      2016-12-13 23:05:55,149 DEBUG     org.apache.jasper.servlet.JspServlet  - Scratch dir for the JSP engine is: C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp
+2      2016-12-13 23:05:55,149 DEBUG     org.apache.jasper.servlet.JspServlet  - IMPORTANT: Do not modify the generated servlets
+244710 2016-12-13 23:09:59,857 DEBUG     org.apache.jasper.servlet.JspServlet  - JspEngine --> /calculator.jsp
+244711 2016-12-13 23:09:59,858 DEBUG     org.apache.jasper.servlet.JspServlet  - 	     ServletPath: /calculator.jsp
+244711 2016-12-13 23:09:59,858 DEBUG     org.apache.jasper.servlet.JspServlet  - 	        PathInfo: null
+244711 2016-12-13 23:09:59,858 DEBUG     org.apache.jasper.servlet.JspServlet  - 	        RealPath: C:\Java\projects\homework\itis2016_3_web\target\itis2016\calculator.jsp
+244711 2016-12-13 23:09:59,858 DEBUG     org.apache.jasper.servlet.JspServlet  - 	      RequestURI: /calculator.jsp
+244711 2016-12-13 23:09:59,858 DEBUG     org.apache.jasper.servlet.JspServlet  - 	     QueryString: null
+244711 2016-12-13 23:09:59,858 DEBUG     org.apache.jasper.servlet.JspServlet  - 	  Request Params: 
+244858 2016-12-13 23:10:00,005 DEBUG      org.apache.jasper.compiler.Compiler  - Using classpath: C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/classes/;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/gwt-dev-2.5.1.jar;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/json-20090211.jar;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/log4j-1.2.17.jar;C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\classes;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\gwt-dev-2.5.1.jar;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\json-20090211.jar;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\log4j-1.2.17.jar
+244969 2016-12-13 23:10:00,116 ERROR      org.apache.jasper.compiler.Compiler  - Javac exception 
+Unable to find a javac compiler;
+com.sun.tools.javac.Main is not on the classpath.
+Perhaps JAVA_HOME does not point to the JDK
+	at org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory.getCompiler(CompilerAdapterFactory.java:105)
+	at org.apache.tools.ant.taskdefs.Javac.compile(Javac.java:924)
+	at org.apache.tools.ant.taskdefs.Javac.execute(Javac.java:757)
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:382)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:472)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:451)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:439)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:511)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:295)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:292)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:236)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:575)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:276)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:103)
+	at org.eclipse.jetty.servlet.DefaultServlet.doGet(DefaultServlet.java:572)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+244972 2016-12-13 23:10:00,119 ERROR      org.apache.jasper.compiler.Compiler  - Env: Compile: javaFileName=/C:/Java/projects/homework/itis2016_3_web/target/tmp/jsp//org/apache/jsp\calculator_jsp.java
+    classpath=/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/classes/;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/gwt-dev-2.5.1.jar;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/json-20090211.jar;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/log4j-1.2.17.jar;C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\classes;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\gwt-dev-2.5.1.jar;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\json-20090211.jar;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\log4j-1.2.17.jar
+    cp=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\classes
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\gwt-dev-2.5.1.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\json-20090211.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\log4j-1.2.17.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\classes
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\gwt-dev-2.5.1.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\json-20090211.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\log4j-1.2.17.jar
+    work dir=C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp
+    extension dir=C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+    srcDir=C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp
+    include=org/apache/jsp/calculator_jsp.java
+
+244972 2016-12-13 23:10:00,119 ERROR      org.apache.jasper.compiler.Compiler  - Error compiling file: /C:/Java/projects/homework/itis2016_3_web/target/tmp/jsp//org/apache/jsp\calculator_jsp.java     [javac] Compiling 1 source file
+
+
+262317 2016-12-13 23:10:17,464 DEBUG     org.apache.jasper.servlet.JspServlet  - JspEngine --> /calculator.jsp
+262318 2016-12-13 23:10:17,465 DEBUG     org.apache.jasper.servlet.JspServlet  - 	     ServletPath: /calculator.jsp
+262318 2016-12-13 23:10:17,465 DEBUG     org.apache.jasper.servlet.JspServlet  - 	        PathInfo: null
+262318 2016-12-13 23:10:17,465 DEBUG     org.apache.jasper.servlet.JspServlet  - 	        RealPath: C:\Java\projects\homework\itis2016_3_web\target\itis2016\calculator.jsp
+262318 2016-12-13 23:10:17,465 DEBUG     org.apache.jasper.servlet.JspServlet  - 	      RequestURI: /calculator.jsp
+262318 2016-12-13 23:10:17,465 DEBUG     org.apache.jasper.servlet.JspServlet  - 	     QueryString: null
+262318 2016-12-13 23:10:17,465 DEBUG     org.apache.jasper.servlet.JspServlet  - 	  Request Params: 
+262324 2016-12-13 23:10:17,471 DEBUG      org.apache.jasper.compiler.Compiler  - Using classpath: C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/classes/;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/gwt-dev-2.5.1.jar;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/json-20090211.jar;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/log4j-1.2.17.jar;C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\classes;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\gwt-dev-2.5.1.jar;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\json-20090211.jar;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\log4j-1.2.17.jar
+262340 2016-12-13 23:10:17,487 ERROR      org.apache.jasper.compiler.Compiler  - Javac exception 
+Unable to find a javac compiler;
+com.sun.tools.javac.Main is not on the classpath.
+Perhaps JAVA_HOME does not point to the JDK
+	at org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory.getCompiler(CompilerAdapterFactory.java:105)
+	at org.apache.tools.ant.taskdefs.Javac.compile(Javac.java:924)
+	at org.apache.tools.ant.taskdefs.Javac.execute(Javac.java:757)
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:382)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:472)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:451)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:439)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:511)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:295)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:292)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:236)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:575)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:276)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:103)
+	at ru.itis2016.CalculatorServlet.doGet(CalculatorServlet.java:27)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+262341 2016-12-13 23:10:17,488 ERROR      org.apache.jasper.compiler.Compiler  - Env: Compile: javaFileName=/C:/Java/projects/homework/itis2016_3_web/target/tmp/jsp//org/apache/jsp\calculator_jsp.java
+    classpath=/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/classes/;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/gwt-dev-2.5.1.jar;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/json-20090211.jar;/C:/Java/projects/homework/itis2016_3_web/target/itis2016/WEB-INF/lib/log4j-1.2.17.jar;C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\classes;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\gwt-dev-2.5.1.jar;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\json-20090211.jar;C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\log4j-1.2.17.jar
+    cp=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\classes
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\gwt-dev-2.5.1.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\json-20090211.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\log4j-1.2.17.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\classes
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\gwt-dev-2.5.1.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\json-20090211.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\itis2016\WEB-INF\lib\log4j-1.2.17.jar
+    work dir=C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp
+    extension dir=C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+    srcDir=C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp
+    include=org/apache/jsp/calculator_jsp.java
+
+262341 2016-12-13 23:10:17,488 ERROR      org.apache.jasper.compiler.Compiler  - Error compiling file: /C:/Java/projects/homework/itis2016_3_web/target/tmp/jsp//org/apache/jsp\calculator_jsp.java     [javac] Compiling 1 source file
+
+
+0      2016-12-13 23:10:54,729 DEBUG apache.jasper.compiler.JspRuntimeContext  - Parent class loader is: WebAppClassLoader=Students personnel@2f058b8a
+1      2016-12-13 23:10:54,730 DEBUG     org.apache.jasper.servlet.JspServlet  - Scratch dir for the JSP engine is: C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp
+1      2016-12-13 23:10:54,730 DEBUG     org.apache.jasper.servlet.JspServlet  - IMPORTANT: Do not modify the generated servlets
+36782  2016-12-13 23:11:31,511 DEBUG     org.apache.jasper.servlet.JspServlet  - JspEngine --> /calculator.jsp
+36782  2016-12-13 23:11:31,511 DEBUG     org.apache.jasper.servlet.JspServlet  - 	     ServletPath: /calculator.jsp
+36782  2016-12-13 23:11:31,511 DEBUG     org.apache.jasper.servlet.JspServlet  - 	        PathInfo: null
+36783  2016-12-13 23:11:31,512 DEBUG     org.apache.jasper.servlet.JspServlet  - 	        RealPath: C:\Java\projects\homework\itis2016_3_web\src\main\webapp\calculator.jsp
+36783  2016-12-13 23:11:31,512 DEBUG     org.apache.jasper.servlet.JspServlet  - 	      RequestURI: /calculator.jsp
+36783  2016-12-13 23:11:31,512 DEBUG     org.apache.jasper.servlet.JspServlet  - 	     QueryString: null
+36783  2016-12-13 23:11:31,512 DEBUG     org.apache.jasper.servlet.JspServlet  - 	  Request Params: 
+36866  2016-12-13 23:11:31,595 DEBUG      org.apache.jasper.compiler.Compiler  - Using classpath: C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar;/C:/Java/projects/homework/itis2016_3_web/target/classes/;/D:/m2repository/log4j/log4j/1.2.17/log4j-1.2.17.jar;/D:/m2repository/org/json/json/20090211/json-20090211.jar;/D:/m2repository/com/google/gwt/gwt-dev/2.5.1/gwt-dev-2.5.1.jar;C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp;C:\Java\projects\homework\itis2016_3_web\target\classes;D:\m2repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\m2repository\org\json\json\20090211\json-20090211.jar;D:\m2repository\com\google\gwt\gwt-dev\2.5.1\gwt-dev-2.5.1.jar
+36943  2016-12-13 23:11:31,672 ERROR      org.apache.jasper.compiler.Compiler  - Javac exception 
+Unable to find a javac compiler;
+com.sun.tools.javac.Main is not on the classpath.
+Perhaps JAVA_HOME does not point to the JDK
+	at org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory.getCompiler(CompilerAdapterFactory.java:105)
+	at org.apache.tools.ant.taskdefs.Javac.compile(Javac.java:924)
+	at org.apache.tools.ant.taskdefs.Javac.execute(Javac.java:757)
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:382)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:472)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:451)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:439)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:511)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:295)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:292)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:236)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:575)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:276)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:103)
+	at ru.itis2016.CalculatorServlet.doGet(CalculatorServlet.java:27)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+36948  2016-12-13 23:11:31,677 ERROR      org.apache.jasper.compiler.Compiler  - Env: Compile: javaFileName=/C:/Java/projects/homework/itis2016_3_web/target/tmp/jsp//org/apache/jsp\calculator_jsp.java
+    classpath=/C:/Java/projects/homework/itis2016_3_web/target/classes/;/D:/m2repository/log4j/log4j/1.2.17/log4j-1.2.17.jar;/D:/m2repository/org/json/json/20090211/json-20090211.jar;/D:/m2repository/com/google/gwt/gwt-dev/2.5.1/gwt-dev-2.5.1.jar;C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp;C:\Java\projects\homework\itis2016_3_web\target\classes;D:\m2repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\m2repository\org\json\json\20090211\json-20090211.jar;D:\m2repository\com\google\gwt\gwt-dev\2.5.1\gwt-dev-2.5.1.jar
+    cp=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\classes
+    cp=D:\m2repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+    cp=D:\m2repository\org\json\json\20090211\json-20090211.jar
+    cp=D:\m2repository\com\google\gwt\gwt-dev\2.5.1\gwt-dev-2.5.1.jar
+    cp=C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp
+    cp=C:\Java\projects\homework\itis2016_3_web\target\classes
+    cp=D:\m2repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+    cp=D:\m2repository\org\json\json\20090211\json-20090211.jar
+    cp=D:\m2repository\com\google\gwt\gwt-dev\2.5.1\gwt-dev-2.5.1.jar
+    work dir=C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp
+    extension dir=C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+    srcDir=C:\Java\projects\homework\itis2016_3_web\target\tmp\jsp
+    include=org/apache/jsp/calculator_jsp.java
+
+36948  2016-12-13 23:11:31,677 ERROR      org.apache.jasper.compiler.Compiler  - Error compiling file: /C:/Java/projects/homework/itis2016_3_web/target/tmp/jsp//org/apache/jsp\calculator_jsp.java     [javac] Compiling 1 source file
+
+
